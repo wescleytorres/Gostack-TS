@@ -11,3 +11,7 @@
 
 
 |=> KISS = Keep it Simple and Stupid
+
+
+## EXCEPTION HANDLING (Lidar com exceções)
+
