@@ -25,9 +25,14 @@
     "prettier"
   ],
   "rules": {
+    "react/jsx-one-expression-per-line": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/ban-types": "off",
+    "no-use-before-define": "off",
     "prettier/prettier": "error",
+    "camelcase": "off",
     "react/jsx-filename-extension": [
       1,
       {
@@ -36,9 +41,6 @@
         ]
       }
     ],
-    "import/prefer-default-export": "off",
-    "camelcase": "off",
-    "@typescript-eslint/ban-types": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -47,7 +49,6 @@
         "tsx": "never"
       }
     ],
-    "no-use-before-define": "off",
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
